@@ -1,35 +1,12 @@
-# 🤖 AI Geliştirme Günlüğü (AI Log)
+# ai_log.md
 
-Bu dosya, proje geliştirme sürecinde yapay zeka asistanları ile yapılan çalışmaları, alınan mimari ve teknik kararları, eklenen özellikleri ve geliştirme adımlarını kronolojik olarak takip etmek için oluşturulmuştur.
+## 16 Ekim Görevi
 
----
+**AI'a sorduğum soru:**
+> "HTML, CSS ve JavaScript kullanarak hocaların veya yöneticilerin toplu bilgilendirme yapabileceği otomatik mesaj/duyuru gönderim sistemi için bir proje fikri ve başlangıç kodları istiyorum."
 
-## 📌 Log Formatı Şablonu
+**Verdiği cevap:**
+> Excel/CSV dosyası yükleyip SheetJS ile okuyan, dinamik şablon oluşturan ve WhatsApp Web üzerinden kişiselleştirilmiş mesaj göndermeyi sağlayan `index.html`, `style.css` ve `script.js` yapısını içeren tam bir kod seti sundu.
 
-Her yeni geliştirme adımı veya oturum için aşağıdaki şablon kullanılabilir:
-
-```markdown
-### [YYYY-MM-DD HH:mm] - <Başlık / Görev Özeti>
-- **İstek / Amaç:** Kullanıcı talebi veya hedeflenen özellik.
-- **Model / Asistan:** Kullanılan model (örn. Gemini 3.8 Flash).
-- **Yapılan İşlemler:**
-  - Madde 1
-  - Madde 2
-- **Teknik Detaylar & Kararlar:** Seçilen kütüphaneler, mimari tercihler vb.
-- **Sonraki Adımlar:** Planlanan sonraki işlemler.
-```
-
----
-
-## 📝 Günlük Kayıtları
-
-### [2026-10-16 09:03] - Proje Başlangıcı ve AI Günlüğünün Eklenmesi
-- **İstek / Amaç:** Proje için `AI_LOG.md` dosyasının oluşturulması ve dokümantasyon altyapısının hazırlanması.
-- **Model / Asistan:** Gemini 3.8 Flash (High)
-- **Yapılan İşlemler:**
-  - [`AI_LOG.md`](file:///c:/Users/SALİHA NAZ/Desktop/web-projesi/AI_LOG.md) dosyası oluşturuldu.
-  - Gelecek geliştirmeler için standart kayıt şablonu tanımlandı.
-- **Teknik Detaylar & Kararlar:**
-  - Çalışma alanı (`web-projesi`) başlangıç aşamasında.
-- **Sonraki Adımlar:**
-  - Projenin gereksinimlerine göre web arayüzü ve bileşenlerin geliştirilmesi.
+**Ve bu cevabı nasıl kullandım:**
+> Yapay zekanın önerdiği mimariyi temel alarak projenin arayüzünü oluşturdum. SheetJS kütüphanesini entegre ederek dışarıdan veri yükleme mekanizmasını kurdum ve projeyi bu temel üzerine geliştirmeye başladım.
