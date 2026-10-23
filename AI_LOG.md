@@ -18,31 +18,6 @@ Proje Fikrinin Olgunlaştırılması: Projenin sadece basit bir web sitesi deği
 
 Teknik Mimari Tasarımı: Sunumun teknik altyapı slaytında yer alan istemci-sunucu-mail servisi akış şeması bu yanıt doğrultusunda çizildi.
 
-💬 Oturum 2: Proje Dokümantasyonu ve Sunum Metinleri
-
-🔹 2. Soru (Kullanıcı Girdisi)
-
-"Bana bu projenin konusu, amacı, hedefleri, kapsamı ve temel özelliklerini içeren, sunum dosyama ekleyebileceğim kurumsal ve akademik bir tanım metni hazırlar mısın?"
-
-🤖 Yapay Zeka Cevabı (Özet)
-
-Proje akademik standartlara uygun olarak Proje Konusu, Proje Amacı, Projenin Hedefleri, Kapsam İçi / Kapsam Dışı Analizi ve Hoca / Öğrenci / Teknik Modül Özellikleri başlıkları altında detaylı bir şekilde raporlandı.
-
-🎯 Projede Kullanım Alanı (Nasıl Kullanıldı?)
-
-Sunum Dosyasının Hazırlanması: Cevaptaki maddeler doğrudan sunum slaytlarının (Giriş, Amaç, Kapsam ve Özellikler) ana metni olarak kullanıldı.
-
-Proje Sınırlarının Belirlenmesi: Kapsam içi ve kapsam dışı maddeleri sayesinde projenin ilk etapta e-posta odağında tutulması, ücretli SMS sistemlerinin ise 2. faza bırakılması kararlaştırıldı.
-
-💬 Oturum 3: Teknik Detaylar ve Performans Optimizasyonu
-
-🔹 3. Soru (Kullanıcı Girdisi)
-
-"Bu sistemde hoca tek tıkla 200 öğrenciye ders iptal e-postası attığında sistemin kilitlenmemesi ve maillerin spama düşmemesi için veritabanı ve arka yüz (backend) tarafında nasıl bir yapı kurmalıyım?"
-
-🤖 Yapay Zeka Cevabı (Özet)
-
-Toplu mail gönderimlerinde ana sunucunun kilitlenmemesi için Asenkron Kuyruk (Task Queue / Celery / Background Tasks) yapısının kullanılması, e-postaların spama düşmemesi için özel HTML şablonları ve SMTP/API servislerinin (Resend / Mailgun vb.) tercih edilmesi gerektiği belirtildi. Ayrıca kullanıcılar, dersler ve duyurular arasındaki ilişkileri gösteren temel bir veritabanı ilişki modeli önerildi.
 
 🎯 Projede Kullanım Alanı (Nasıl Kullanıldı?)
 
